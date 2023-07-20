@@ -1,0 +1,34 @@
+body{
+    background-color: bisque;
+    align-items: center;
+    justify-content: center;
+}
+
+.gameimg img{
+    width: 30%;
+    margin-top: -10px;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+}
+
+.button{  text-align: center;}
+
+.button a{
+    font-size: 30px;
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+}
+
+button{
+    border: 1% solid rgb(255, 255, 255);
+    border-radius: 8px;
+    background-color: brown;
+}
+
+.button:hover{
+    stroke-dasharray:  50 0;
+    stroke-width: 3px;
+    stroke-dashoffset: 0;
+    stroke: #06d6a0;
+}
